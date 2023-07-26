@@ -43,9 +43,9 @@
 
     <header class="md:container mx-auto">
         <!-- nav bar -->
-        <nav class="bg-red-500 rounded-3xl">
-            <div class="navbar flex flex-row ">
-                <div class="flex-1 text-white font-semibold">
+        <nav class=" ml-5 lg:ml-auto ">
+            <div class="navbar lg:bg-red-500 lg:rounded-3xl  lg:flex  lg:flex-row justify-between ">
+                <div class=" hidden lg:flex lg:flex-1 text-white font-semibold">
                     <ul class="menu lg:menu-vertical menu-horizontal ">
                         <li><a>Home</a></li>
                         <li><a>About</a></li>
@@ -53,20 +53,24 @@
                         <li><a>All Fruits</a></li>
                     </ul>
                 </div>
+               
                 <div class="flex-1">
                     <img src="./images/logo.png" alt="">
-                    <a class="btn btn-ghost normal-case text-2xl text-white">Fruit Burst</a>
+                    <a class="btn btn-ghost normal-case text-2xl text-black lg:text-white">Fruit Burst</a>
                 </div>
-                <div class=" lg:flex-1  ">
+                <div class=" hidden lg:flex  lg:justify-end mr-16  ">
                     <div class="form-control">
 
                         <a href=""><input type="text" placeholder="Search"
-                                class="input input-bordered lg:w-96 md:w-auto" /> <i
+                                class="input input-bordered lg:w-80 md:w-40" /> <i
                                 class="fa-solid fa-magnifying-glass -ml-10"></i></a>
 
 
                     </div>
 
+                </div>
+                <div class="lg:hidden">
+                    <a href=""><i class="fa-solid fa-bars fa-2xl" style="color: #000000;"></i></a>
                 </div>
             </div>
         </nav>

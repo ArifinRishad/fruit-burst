@@ -44,7 +44,7 @@
     <header class="md:container mx-auto">
         <!-- nav bar -->
         <nav class=" ml-5 lg:ml-auto ">
-            <div class="navbar lg:bg-red-500 lg:rounded-3xl  lg:flex  lg:flex-row justify-between ">
+            <div class="navbar lg:bg-red-500 lg:rounded-[240px]  lg:flex  lg:flex-row justify-between ">
                 <div class=" hidden lg:flex lg:flex-1 text-white font-semibold">
                     <ul class="menu lg:menu-vertical menu-horizontal ">
                         <li><a>Home</a></li>
@@ -62,7 +62,7 @@
                     <div class="form-control">
 
                         <a href=""><input type="text" placeholder="Search"
-                                class="input input-bordered lg:w-80 md:w-40" /> <i
+                                class="input input-bordered lg:w-80 md:w-40 rounded-[50px]" /> <i
                                 class="fa-solid fa-magnifying-glass -ml-10"></i></a>
 
 
@@ -76,7 +76,7 @@
         </nav>
         <!-- nav bar end -->
         <!-- banner start -->
-        <section>
+        <section class="relative">
             <div class="carousel w-full lg:h-[550px] mt-5 lg:mt-10 mb-5 lg:mb-10 rounded-lg m-4 lg:m-auto">
                 <!-- slider 1 -->
                 <div id="slide1" class="carousel-item relative w-full">
@@ -157,6 +157,35 @@
                     </div>
                 </div>
             </div>
+            <!-- furites and name section start -->
+            <div class="hidden lg:flex">
+            <div class="lg:shadow-xl lg:shadow-[#0000000D]  lg:absolute  lg:border-2 lg:bg-white lg:rounded-lg lg:mx-w-[1024px]  md:mr-40  lg:ml-40 lg:-mt-36">
+                <div class=" grid  lg:grid-cols-5 gap-20 text-center  pl-16 pr-16 pt-10 pb-10 ">
+                    <div >
+                        <img src="./images/fruit1.png" alt="">
+                        <h1 class=" hidden lg:flex justify-center" >Strawberry</h1>
+                    </div>
+                    <div>
+                        <img src="./images/fruit2.png" alt="">
+                        <h1 class=" hidden lg:flex justify-center">Orange</h1>
+                    </div>
+                    <div>
+                        <img src="./images/fruit3.png" alt="">
+                        <h1 class=" hidden lg:flex justify-center">Mango</h1>
+                    </div>
+                    <div>
+                        <img src="./images/fruit4.png" alt="">
+                        <h1 class=" hidden lg:flex justify-center">Strawberry</h1>
+                    </div>
+                    <div>
+                        <img src="./images/fruit5.png" alt="">
+                        <h1 class=" hidden lg:flex justify-center">Mango</h1>
+                    </div>
+                </div>
+
+            </div>
+            </div>
+            <!-- fruites and name section end -->
 
         </section>
         <!-- banner slider end -->
@@ -164,7 +193,7 @@
     </header>
     <main class="md:container mx-auto">
         <!-- Deal of the day section start  -->
-        <section>
+        <section class="lg:mt-44">
             <!-- dill of day text section -->
             <div class=" grid grid-rows-1 m-2 lg:flex lg:justify-between ">
                 <div class="lg:justify-start lg:text-left text-center">
